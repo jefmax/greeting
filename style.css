@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+  padding: 1rem;
+}
+
+.page-title {
+  text-align: center;
+  padding: 2rem;
+  color: #00343d;
+}
+
+.form-container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.greeting {
+  font-family: "Comic Neue", cursive;
+  font-size: 12px;
+  text-align: center;
+}
+
+.setting {
+  margin: 2rem;
+  text-align: center;
+}
+
+.setting__btn {
+  text-align: center;
+}
+
+.time {
+  display: none;
+  text-align: center;
+}
+
+.time.active {
+  display: block;
+}
+
+.close {
+  color: #00343d;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover {
+  color: #00414d;
+}
+
+label,
+input {
+  font-size: 16px;
+}
+
+button {
+  background: #00343d;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 0.5rem;
+}
+button:hover {
+  background: #00414d;
+}
+button:focus {
+  color: #f4f4f4;
+}
+button:active {
+  color: #0bd8a2;
+}

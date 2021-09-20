@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeting</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="page-title">My Web Page</h1>
+
+    <div class="form-container">
+      <form class="form" action="">
+        <fieldset>
+          <label for="name">Please enter your name</label>
+          <input type="text" id="name" />
+          <button type="button" class="js-greet">Send</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="reply">
+      <p id="greeting" class="greeting"></p>
+    </div>
+
+    <div class="setting">
+      <button id="btn-setting" class="setting__btn" type="button">
+        Setting
+      </button>
+    </div>
+
+    <div id="verTime" class="time">
+      <div class="form-container">
+        <fieldset>
+          <span class="close">×</span>
+          <form class="form">
+            <span>Morning Hours:</span>
+            <label for="">to</label>
+            <input name="morningTimeSince" type="number" placeholder="0" />
+            <label for="">since</label>
+            <input name="morningTimeTo" type="number" placeholder="12" />
+            <br /><br />
+
+            <span>Afternoon Hours:</span>
+            <label for="">to</label>
+            <input name="afternoonTimeSince" type="number" placeholder="12" />
+            <label for="">since</label>
+            <input name="afternoonTimeTo" type="number" placeholder="18" />
+            <br /><br />
+
+            <span>Evening Hours:</span>
+            <label for="">to</label>
+            <input name="eveningTimeSince" type="number" placeholder="18" />
+            <label for="">since</label>
+            <input name="eveningTimeTo" type="number" placeholder="24" />
+            <br /><br />
+
+            <button class="js-save js-greet" type="submit">Try it</button>
+          </form>
+        </fieldset>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
